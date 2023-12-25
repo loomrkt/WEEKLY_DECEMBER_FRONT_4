@@ -27,7 +27,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": ["node_modules/preline/preline.js"],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -91,10 +91,13 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": ["node_modules/preline/preline.js"]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "927af73d-0e0f-4bcf-9ad4-7f6c00dd09da"
   }
 }

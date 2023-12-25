@@ -1,0 +1,24 @@
+<header class="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full text-sm py-4">
+  <nav class="max-w-[85rem] w-full mx-auto px-4 sm:px-16 sm:flex sm:items-center sm:justify-between" aria-label="Global">
+    <div class="flex items-center justify-between">
+      <a class="flex-none" href="#">
+        <img class="h-12 w-auto" ngSrc="../../assets/logo.svg" alt="Logo" width="186" height="58" priority>
+      </a>
+      <app-button1 texte="Login" class="sm:hidden basis-full flex justify-end pr-4"></app-button1>
+      <div class="sm:hidden">
+        <button type="button" class="hs-collapse-toggle inline-flex justify-center items-center" data-hs-collapse="#navbar-image-1" aria-controls="navbar-image-1" aria-label="Toggle navigation">
+        <img ngSrc="../../assets/bx_bx-menu-alt-right.svg" alt="Logo" width="66" height="53" priority>
+        </button>
+      </div>
+    </div>
+    <div id="navbar-image-1" class="hs-collapse hidden overflow-hidden transition-all duration-300 sm:block">
+      <div class="flex flex-col gap-8 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
+        <a class="font-medium text-blue-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#" aria-current="page">Home</a>
+        <a class="font-medium text-white" href="#">Product</a>
+        <a class="font-medium text-white" href="#">About</a>
+        <a class="font-medium text-white" href="#">Contact</a>
+      </div>
+    </div>
+    <app-button1 texte="Login" class=" hidden sm:block"></app-button1>
+  </nav>
+</header>
