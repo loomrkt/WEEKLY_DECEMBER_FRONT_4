@@ -1,12 +1,10 @@
 <main>
       <app-navbar></app-navbar>
       <app-home-section #up></app-home-section>
-      @defer (on viewport(up)) {
+      @defer{
         <app-section-t titre="FEATURES" sousTitre="Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.">
             <app-features1></app-features1>
         </app-section-t>
-      } @placeholder {
-        <p>fef</p>
       }
     @defer{
       <app-section-t titre="Contents" sousTitre="We focus on ergonomics and meeting you where you work. It's only a keystroke away.">
